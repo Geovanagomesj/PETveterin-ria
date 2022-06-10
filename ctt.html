@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <section id="meiodoheader" class="tudo">
+            <div><span>PET</span>veterinária</div>
+            <nav>
+                <a href="index.html" target="_blank">INÍCIO</a>
+                <a href="sobre.html" target="_blank">SOBRE</a>
+                <a href="ctt.html" target="_blank">CTT</a>
+            </nav>
+        </section>
+    </header>
+
+    <h4> Para agendar horário, favor preencher formulário que entraremos em contato!</h4>
+	<h4 class="pet">A clinica PETveterinária agradece.</h4>
+
+    <section>
+		<form action="XX" method="post">
+			<fieldset class="contatos">
+				<legend>Cadastro</legend>
+				<br>
+				<label class="tit" for="nome">Nome:</label> <br>
+				<input type="text" name="NomeTut" id="nomeTut" size="50px" required placeholder="Digite seu nome:" />
+				<br><br>
+				<label class="tit" for="nomePet">Nome do animalzinho:</label> <br>
+				<input type="text" name="Nomepet" id="nomeTut" size="50px" required placeholder="Nome do animalzinho:" />
+				<br><br>
+				<label class="tit" for="sexo">Sexo do Pet:</label> <br>
+				<input type="radio" name="sexo" value="F" id="sexoFeminino" /><label for="sexoFeminino">Feminino</label>
+				<input type="radio" name="sexo" value="M" id="sexoMasculino" /><label
+					for="sexoMasculino">Masculino</label>
+				<br><br>
+				<label class="tit" for="descricaoArquivo">Descrição ou dúvidas sobre o agendamento:</label> <br>
+				<textarea name="descricaoArquivo" cols="60" rows="2" id="descricaoArquivo"></textarea>
+				<br><br>
+				<label class="tit" for="interesse">Selecione:</label> <br>
+				<select name="interesse" id="interesse"> <br>
+					<option value="banho">Banho</option>
+					<option value="banhotosa">Banho e tosa</option>
+					<option value="consulta">Consulta</option>
+                    <option value="vacina">Vacinas</option>
+					<option value="castrar">Castração</option>
+					<option value="outrosAssuntos">Outros Assuntos</option>
+				</select>
+				<br><br>
+				<label class="tit" for="contato">Contato:</label> <br>
+				<input type="checkbox" name="telefone" id="telefone" /><label for="telefone">Telefone</label>
+				<input type="checkbox" name="email" id="email" /><label for="email">E-mail</label>
+				<input type="text" name="contato" id="contato" />
+				<br>
+				<input name="btnEnvio" type="submit" value="Enviar" />
+
+				<!-- Código para dar espaço entre os elementos -->
+				&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
+				<input name="btnReset" type="reset" value="Limpar" />
+			</fieldset>
+		</form>
+	</section>
+   
+        <section class="contatoPET">
+            <h1>Funcionamento:</h1>
+            <p>Rua: João da Silva, 321</p>
+            <p>Segunda a Sexta-feira <br> Das 09h00 às 18h00</p>
+            <p>(XX)XXXXX-XXXX</p>
+        </section>
+
+
+        <footer>
+            <small>&copy; Geovana Gomes - RGM: 29412081 - Análise e Desenvolvimento de Sistemas</small>
+        </footer>
+
+
+</body>
+
+</html>
